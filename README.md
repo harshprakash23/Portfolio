@@ -129,7 +129,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Feel free to reach out to me through any of the following platforms:
 
 - **LinkedIn**: [Harsh Prakash](https://www.linkedin.com/in/harsh-prakash-510b38246/)
-- **Email**: [Send me an email](mailto:harshprakash2307@gmail.com)
+- **Email**: [Send me an email](mailto:harshprakash5189@gmail.com)
 - **GitHub**: [harshprakash23](https://github.com/harshprakash23)
 
 ---
