@@ -64,9 +64,6 @@ const Navbar = () => {
     { name: 'Contact', path: '/contact' }
   ];
 
-  const leftNavItems = navItems.slice(0, 2);
-  const rightNavItems = navItems.slice(2);
-
   // Handle navigation with actual page navigation
   const handleNavigation = (item) => {
     setActiveItem(item.name);
@@ -89,25 +86,11 @@ const Navbar = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div className="mx-auto px-6 py-4">
-          <div className="flex justify-between items-center max-w-7xl mx-auto">
+          <div className="flex justify-center items-center max-w-7xl mx-auto relative">
             
-            {/* Left Navigation - Desktop */}
-            <div className="hidden lg:flex space-x-8 items-center">
-              {leftNavItems.map((item) => (
-                <NavLink 
-                  key={item.name} 
-                  item={item}
-                  activeItem={activeItem}
-                  onNavigate={handleNavigation}
-                >
-                  {item.name}
-                </NavLink>
-              ))}
-            </div>
-
-            {/* Logo/Brand */}
+            {/* Logo/Brand - Centered */}
             <motion.div 
-              className="text-2xl lg:text-3xl font-bold"
+              className="text-2xl lg:text-3xl font-bold absolute left-1/2 transform -translate-x-1/2"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
@@ -119,9 +102,23 @@ const Navbar = () => {
               </button>
             </motion.div>
 
+            {/* Left Navigation - Desktop */}
+            <div className="hidden lg:flex space-x-8 items-center absolute left-0">
+              {navItems.slice(0, 2).map((item) => (
+                <NavLink 
+                  key={item.name} 
+                  item={item}
+                  activeItem={activeItem}
+                  onNavigate={handleNavigation}
+                >
+                  {item.name}
+                </NavLink>
+              ))}
+            </div>
+
             {/* Right Navigation - Desktop */}
-            <div className="hidden lg:flex space-x-8 items-center">
-              {rightNavItems.map((item) => (
+            <div className="hidden lg:flex space-x-8 items-center absolute right-0">
+              {navItems.slice(2).map((item) => (
                 <NavLink 
                   key={item.name} 
                   item={item}
@@ -136,7 +133,7 @@ const Navbar = () => {
             {/* Mobile Menu Button */}
             <motion.button
               onClick={toggleMobileMenu}
-              className="lg:hidden p-2 rounded-lg hover:bg-white/10 transition-colors duration-200"
+              className="lg:hidden p-2 rounded-lg hover:bg-white/10 transition-colors duration-200 absolute right-0"
               whileTap={{ scale: 0.95 }}
             >
               <motion.div

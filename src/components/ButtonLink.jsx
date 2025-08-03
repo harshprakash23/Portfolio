@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const ButtonLink = ({ url, text, padding = 'px-6 py-3', variant = 'primary', size = 'md' }) => {
-  // Variant styles
   const variants = {
     primary: {
       base: 'bg-gradient-to-r from-blue-500 to-purple-600 text-white border-transparent shadow-lg hover:shadow-xl',
@@ -66,7 +65,6 @@ const ButtonLink = ({ url, text, padding = 'px-6 py-3', variant = 'primary', siz
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/0 via-purple-600/0 to-pink-600/0 group-hover:from-blue-600/20 group-hover:via-purple-600/20 group-hover:to-pink-600/20 transition-all duration-500 rounded-full" />
       
-      {/* Shimmer effect */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
       </div>
@@ -154,7 +152,6 @@ const ButtonLink = ({ url, text, padding = 'px-6 py-3', variant = 'primary', siz
         )}
       </span>
       
-      {/* Ripple effect on click */}
       <div className="absolute inset-0 rounded-full overflow-hidden">
         <div className="absolute inset-0 bg-white/20 scale-0 group-active:scale-100 transition-transform duration-300 rounded-full" />
       </div>

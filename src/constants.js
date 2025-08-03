@@ -17,44 +17,58 @@ export const services = [
 export const name = 'Harsh';
 
 export const experiences = [
-    {
-        'company': 'Trainity',
-        'role': 'Data Analytics Trainee',
-        'duration': 'August 2024 - Present',
-        'logo': 'https://media.licdn.com/dms/image/C4D0BAQH0TAFLJrU2RQ/company-logo_200_200/0/1630502895399/gettrainity_logo?e=2147483647&v=beta&t=qd_CLr-GC4GF3ck-4pkuY59vWHVZOOsDmGxFWNLiH4I',
-        'points': [
-            'Developed advanced skills in Microsoft Excel, including the creation of pivot tables, complex charts (e.g., histograms, scatter plots), and mastery of functions and data visualization techniques. Demonstrated ability to analyze and present data effectively.',
-            'Acquired in-depth knowledge of MySQL for database management, including data normalization, complex queries, and performance tuning. Applied skills in data cleaning, subqueries, and window functions to real-world scenarios.',
-            ' Mastered key statistical concepts such as descriptive statistics, probability distributions, and hypothesis testing. Utilized these techniques in analyzing and interpreting data for various projects',
-            ' Successfully executed 8 projects, including Instagram User Analytics, Data Analytics Process, and Operation & Metric Analytics, showcasing practical application of analytical skills.'
-        ],
-        'url': 'https://trainity.in/',
-    },
-    {
-        'company': 'Goldman Sachs',
-        'role': 'Software Engineering',
-        'duration': 'July 2024',
-        'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Goldman_Sachs.svg/1024px-Goldman_Sachs.svg.png',
-        'points': [
-            'Completed a job simulation as a Goldman Sachs governance analyst responsible for assessing IT security and suggesting improvements.',
-            ' Identified that the company was using an outdated password hashing algorithm by cracking passwords using Hashcat.',
-            'Wrote a memo for my supervisor summarizing a range of proposed uplifts to increase the company’s level of password protection including extending minimum password length and using a dedicated hashing algorithm.'
-        ],
-        'url': 'https://www.goldmansachs.com/',
-    },
-    {
-        'company': 'Accenture',
-        'role': 'Project Manager',
-        'duration': 'July 2024',
-        'logo': 'https://logos-world.net/wp-content/uploads/2020/07/Accenture-Logo-700x394.png',
-        'points': [
-            'Completed a job simulation where I acted as a project manager for a hypothetical client who were launching a new brand.',
-            ' Mapped suitable project management approaches including Plan Driven, Agile, Second Agile and Hybrid to a portfolio of projects.',
-            ' Presented a project status update to senior leadership and project team members.'
-        ],
-        'url': 'https://www.accenture.com/in-en',
-    },
-]
+  {
+    company: 'Hindustan Petroleum Corporation Limited (HPCL)',
+    role: 'Software Development Intern',
+    duration: 'June 2025 – July 2025',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/8/8c/Hindustan_Petroleum_Logo.svg',
+    points: [
+      'Built a Full-stack HPCL Form Backend using Java Spring Boot and MySQL with hierarchical role-based access (Admin/User/Partial/Read-Only).',
+      'Enabled multi-instance form filling, Excel export, and post-creation user assignments via REST APIs.',
+      'Focused on backend scalability, security, and seamless API integration for frontend clients.',
+      'Tech Stack Used: Java, Spring Boot, MySQL, REST APIs, RBAC, Excel Sheet Integration, Backend Development, Postman (API Testing).'
+    ],
+    url: 'https://www.hindustanpetroleum.com/'
+  },
+  {
+    company: 'Tata Steel',
+    role: 'Data Analytics Intern',
+    duration: 'May 2025 – June 2025',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Tata_Steel_Logo.svg',
+    points: [
+      'Built a Stack Emission Prediction System for the Sinter Plant to monitor and forecast pollutant emissions using real-time data.',
+      'Developed machine learning models for emission prediction and created a backend engine for automated, proactive control.',
+      'Focused on environmental compliance, predictive maintenance, and minimizing emission risks.',
+      'Tech Stack Used: Python, Machine Learning, Regression Models, REST APIs, Flask, Excel, Data Cleaning.'
+    ],
+    url: 'https://www.tatasteel.com/'
+  },
+  {
+    company: 'IBM',
+    role: 'Generative AI Intern (WatsonX)',
+    duration: 'May 2025 – June 2025',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
+    points: [
+      'Completed IBM\'s Generative AI program covering LLM deployment, prompt engineering, and WatsonX services.',
+      'Built a Sentiment Analysis Model on movie reviews using IBM Watson Studio Notebooks.',
+      'Developed NexusAI, a conversational AI system integrating chat-based interactions with personalized user context and memory.',
+      'Tech Stack Used: WatsonX, IBM Cloud, Python, NLP, Generative AI, Prompt Engineering, REST APIs.'
+    ],
+    url: 'https://www.ibm.com/in-en'
+  },
+  {
+    company: 'Trainity',
+    role: 'Data Analyst Intern',
+    duration: 'July 2024 – September 2024',
+    logo: 'https://media.licdn.com/dms/image/C4D0BAQH0TAFLJrU2RQ/company-logo_200_200/0/1630502895399/gettrainity_logo?e=2147483647&v=beta&t=qd_CLr-GC4GF3ck-4pkuY59vWHVZOOsDmGxFWNLiH4I',
+    points: [
+      'Completed coursework in Data Analytics, Excel, MySQL, Statistics, Tableau, and Python, applying statistical methods and advanced analytics to solve real-world problems.',
+      'Analysed, cleaned, transformed, and visualized complex datasets, developing and presenting actionable insights through reports and dashboards to support business decision-making.'
+    ],
+    url: 'https://trainity.in/'
+  }
+];
+
 
 
 

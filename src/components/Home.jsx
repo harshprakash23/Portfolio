@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { motion } from "framer-motion";
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -162,7 +163,9 @@ const Home = () => {
           />
         ))}
       </div>
+      <Footer />
     </div>
+    
   );
 }
 

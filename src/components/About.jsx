@@ -152,24 +152,57 @@ const About = () => {
                 viewport={{ once: true }}
               >
                 <p>
-                  👨‍💻 Hi, I am <span className='text-blue-400 font-semibold'>Harsh Prakash</span>, a third-year B.Tech student at 
-                  <span className='text-purple-400 font-semibold'> Vellore Institute of Technology</span>🎓, majoring in Computer Software Engineering.
-                </p>
+  👨‍💻 Hi, I am <span className='text-blue-400 font-semibold'>Harsh Prakash</span>, a final-year B.Tech student at 
+  <span className='text-purple-400 font-semibold'> Vellore Institute of Technology</span>🎓, specializing in the Internet of Things.
+</p>
+
+<p>
+  ✍️ I have a strong passion for <span className='text-green-400 font-semibold'>software engineering, data analytics</span>, and 
+  <span className='text-orange-400 font-semibold'> innovative tech solutions</span>. My academic and professional journey has allowed me to gain hands-on experience across various domains.
+</p>
+
+<p>
+  💻 <span className='text-yellow-400 font-semibold'>Programming & Development:</span> Proficient in 
+  <span className='text-green-400 font-semibold'> Java, Python, C, C++,</span> and full-stack development using 
+  <span className='text-blue-400 font-semibold'> React.js, Node.js,</span> and <span className='text-pink-400 font-semibold'>Spring Boot</span>.
+</p>
+
+<p>
+  🌐 <span className='text-yellow-400 font-semibold'>Web & Backend Development:</span> Built secure, scalable systems with 
+  <span className='text-green-400 font-semibold'> REST APIs and MySQL</span>, including enterprise-level projects during internships at 
+  <span className='text-purple-400 font-semibold'> HPCL</span> and <span className='text-purple-400 font-semibold'>Tata Steel</span>.
+</p>
+
+<p>
+  📊 <span className='text-yellow-400 font-semibold'>Data Analytics & Visualization:</span> Skilled in 
+  <span className='text-pink-400 font-semibold'> SQL, MySQL, Excel, Tableau, Power BI</span>, and machine learning with 
+  <span className='text-green-400 font-semibold'> scikit-learn</span> for real-world industrial analytics.
+</p>
+
+<p>
+  ☁️ <span className='text-yellow-400 font-semibold'>Cloud & Security:</span> Hands-on with 
+  <span className='text-orange-400 font-semibold'> AWS (S3, IAM)</span> and cybersecurity fundamentals including 
+  <span className='text-red-400 font-semibold'> threat detection</span> and <span className='text-red-400 font-semibold'>secure data handling</span>.
+</p>
+
+<p>
+  🤖 <span className='text-yellow-400 font-semibold'>AI & Prompt Engineering:</span> Developed NLP projects using 
+  <span className='text-blue-400 font-semibold'> IBM WatsonX</span> and created AI-driven applications with contextual prompt handling.
+</p>
+
+<p>
+  🔧 I’ve interned at <span className='text-purple-400 font-semibold'>Hindustan Petroleum Corporation Limited</span>, 
+  <span className='text-purple-400 font-semibold'> Tata Steel</span>, <span className='text-purple-400 font-semibold'>IBM</span>, and 
+  <span className='text-purple-400 font-semibold'> Trainity</span>, contributing to impactful backend, AI, and data analytics solutions.
+</p>
+
                 
                 <p>
-                  ✍️My academic journey has equipped me with a solid foundation in programming languages such as 
-                  <span className='text-green-400 font-semibold'> Python, C, C++, and Java</span>. Additionally, I possess skills in web development technologies including 
-                  <span className='text-yellow-400 font-semibold'> HTML, CSS, JavaScript, and React.js</span>, along with a strong understanding of Data Structures and Algorithms.
-                </p>
-                
-                <p>
-                  I am also proficient in <span className='text-pink-400 font-semibold'>SQL, MySQL, Tableau, and Power BI</span> for data analysis and visualization, 
-                  and have foundational knowledge in <span className='text-orange-400 font-semibold'>AWS S3 and cybersecurity</span>. Furthermore, I have a great interest in cloud computing.
-                </p>
-                
-                <p>
-                  🚀My journey in the field of computer science has been marked by a continuous quest for knowledge and practical experience. 
-                  I am passionate about leveraging my skills to solve complex problems and deliver impactful solutions. Feel free to connect with me on{' '}
+                  🚀 I'm driven by a desire to solve complex problems, explore emerging technologies, and build efficient systems that make a real-world impact. 
+  Currently, I'm seeking opportunities in <span className='text-green-400 font-semibold'>software development</span>, 
+  <span className='text-blue-400 font-semibold'>data engineering</span>, or <span className='text-pink-400 font-semibold'>AI/ML roles</span> 
+  where I can continue to grow and contribute.<br></br> 
+                  💼 Feel free to connect with me on{' '}
                   <motion.a 
                     className='text-blue-400 hover:text-blue-300 duration-300 font-semibold underline decoration-2 underline-offset-4' 
                     href='https://www.linkedin.com/in/harsh-prakash-510b38246/' 
@@ -194,7 +227,7 @@ const About = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   <ButtonLink
-                    url='https://drive.google.com/file/d/1c5S_-S2ZkFB8xRKgGU_URLbk1fVa3i7r/view?usp=drive_link'
+                    url='https://drive.google.com/file/d/1Qo6TxPoEza3NutYlh3DOBY0Tclp87Bo4/view?usp=drive_link'
                     text='View Resume →'
                     padding='px-8 py-4'
                   />
