@@ -90,13 +90,9 @@ A dynamic form-building application using React.js, Spring Boot, and MySQL with 
 
 <p align="center">
   <img src="public/assets/Portfolio.png" alt="Portfolio Home Page" width="45%" />
-  <img src="public/assets/DineDash.png" alt="DineDash Project" width="45%" />
 </p>
 
-<p align="center">
-  <img src="public/assets/Attendance.png" alt="Attendance Management System" width="45%" />
-  <img src="public/assets/DynamicForm.png" alt="Dynamic Forms Project" width="45%" />
-</p>
+
 
 ## 🛠 Setup
 
